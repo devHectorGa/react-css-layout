@@ -1,7 +1,7 @@
 import React, { createElement, forwardRef, HTMLAttributes } from 'react'
 const isDevEnv = process.env.NODE_ENV !== 'production'
 
-type tagListOptions = 'header' | 'footer' | 'main' | 'section'
+type tagListOptions = 'header' | 'footer' | 'main' | 'section' | 'aside'
 type GeneratorProps = {
   displayName: string
   tagName: tagListOptions
